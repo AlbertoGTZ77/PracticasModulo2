@@ -2,6 +2,7 @@ h1{
     color: aqua;
     background:black;
     font-size: 60px;
+    text-align: center;
     /*
     padding: 1000;
     margin: 10px;
@@ -30,9 +31,26 @@ p{
 ul{
 
     color:azure;
-    background: black;
 }
 li{
     font-family: cursive;
     font-size: 35px;
+}
+
+.itemNavegador{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+.itemNavegador a {
+
+    text-decoration: none;
+    color:rgb(3, 3, 92);
+
+}
+
+.navegador{
+
+    background:whitesmoke;
+    border: 1px solid black;
 }
