@@ -1,0 +1,40 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.tarjeta1{
+    background-color: #1e3932;
+    margin-block-end: 10px;
+   
+
+}
+.contenedor-imagen1{
+
+    width: 50%;
+
+}
+
+.tarjeta1 .contenedor-imagen1 .imagen{
+    width: 100%;
+}
+.contenedor-interno{
+
+    display: inline-block;
+
+}
+
+.contenedor-texto{
+
+    color: white;
+    text-align: center;
+    width: 736px;
+    position: absolute;
+    top: 101px;
+    right: 127px;
+    font-size: 30px;
+
+    
+   
+
+
+}
