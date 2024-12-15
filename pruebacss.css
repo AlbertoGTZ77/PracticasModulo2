@@ -1,0 +1,44 @@
+.mesa{
+
+    width: 100%;
+    height:500px;
+    background-color: black;
+    display: flex;
+    
+
+}
+
+.derecha{
+    background-color: brown ;
+    width: 50%;
+    height:100%;
+    
+
+}
+
+.izquierda{
+    width: 50%;
+    height:100%;
+    background-color:teal;
+    position: relative;
+}
+body{
+    background-color: darkolivegreen;
+}
+
+h1{
+    display: block;
+    position: absolute;
+}
+#h1{
+    right: 0;
+    top: 0;
+}
+#h2{
+    right: 0;
+    top: 10%;
+}
+#h3{
+    right: 0;
+    top: 20%;
+}
