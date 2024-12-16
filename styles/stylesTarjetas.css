@@ -32,12 +32,12 @@ body{
 
 }
 
-h1,p{
+.tituloTarjeta,.parrafoTarjeta{
     display:block;
     color: white;
     font-size: 35px;
 }
-p{
+.parrafoTarjeta{
     font-size: 25px;
 }
 
