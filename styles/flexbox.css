@@ -5,7 +5,7 @@
   
   #contenedorPrincipal{
     background-color: #030303;
-    height: 700px;
+    height: 1000px;
   }
   .contenedor-flex{
     display: flex;
@@ -20,7 +20,7 @@
   
   #contenedorPrincipal .caja{
     color: white;
-    background-color:blueviolet;
+    background-color:rgb(17, 51, 163);
     width: 400px;
     height: 400px;
     display: flex;
@@ -29,10 +29,10 @@
     align-items: center; /* Eje Cruzado */
   }
   
-  .caja-uno {
-    /* align-self: flex-start; */
+  .caja1 {
+    align-self: flex-start;
   }
   
-  .caja-tres{
-    /* align-self: flex-end; */
+  .caja3{
+    align-self: flex-end;
   }
