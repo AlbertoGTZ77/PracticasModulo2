@@ -10,11 +10,28 @@ body{
     margin-bottom: 25px;
     display: flex;
 }
+@media screen and (max-width:1020px) {
+    .tarjetas{
+        flex-direction: column;
+        height: 560px;
+
+    }
+    
+}
 
 .contenedor-imagen1{
     width:50%;
     height:100%;
 }
+@media screen and (max-width:1020px) {
+    .contenedor-imagen1{
+        width:100%;
+        height:50%;
+       
+
+    }
+}
+
 .imagen{
     width:100%;
     height: 100%;
@@ -31,23 +48,53 @@ body{
     text-align: center;
 
 }
+@media screen and (max-width:1020px) {
+    .contenedor-texto{
+        width:100%;
+        height:100%;
+        padding-top: 0;
+        text-align: center;
+       
+
+    }
+}
 
 .tituloTarjeta,.parrafoTarjeta{
     display:block;
     color: white;
     font-size: 35px;
 }
+
+@media screen and (max-width:425px) {
+    .tituloTarjeta,.parrafoTarjeta{
+
+        font-size: 30px;
+     
+       
+
+    }
+}
 .parrafoTarjeta{
     font-size: 25px;
+}
+
+@media screen and (max-width:425px) {
+    .parrafoTarjeta{
+
+        font-size: 20px;
+     
+       
+
+    }
 }
 
 .color1{
     background-color: #1e3932;
 }
+
 .color2{
     background-color: #0044b4;
 }
 .color3{
     background-color: #d50032;
 }
-
