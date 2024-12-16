@@ -1,0 +1,132 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+main{
+    padding:  80px 260px;
+}
+@media screen and (max-width:1440px) {
+    main{
+        padding:  35px 127px;
+
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    main{
+        padding:  35px 50px;
+
+    }
+    header{
+
+        display: flex;
+
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    
+}
+
+
+@media screen and (max-width:425px) {
+    main{
+        padding:  30px 15px;
+
+    }}
+.tarjetas{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+    display: flex;
+}
+@media screen and (max-width:1020px) {
+    .tarjetas{
+        flex-direction: column;
+        height: 560px;
+
+    }
+    
+}
+
+.contenedor-imagen1{
+    width:50%;
+    height:100%;
+}
+@media screen and (max-width:1020px) {
+    .contenedor-imagen1{
+        width:100%;
+        height:50%;
+       
+
+    }
+}
+
+.imagen{
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+.contenedor-texto{
+
+    width: 50%;
+    height:100%;
+    padding-top: 90px;
+    text-align: center;
+
+}
+@media screen and (max-width:1020px) {
+    .contenedor-texto{
+        width:100%;
+        height:100%;
+        padding-top: 0;
+        text-align: center;
+       
+
+    }
+}
+
+.tituloTarjeta,.parrafoTarjeta{
+    display:block;
+    color: white;
+    font-size: 35px;
+}
+
+@media screen and (max-width:425px) {
+    .tituloTarjeta,.parrafoTarjeta{
+
+        font-size: 30px;
+     
+       
+
+    }
+}
+.parrafoTarjeta{
+    font-size: 25px;
+}
+
+@media screen and (max-width:425px) {
+    .parrafoTarjeta{
+
+        font-size: 20px;
+     
+       
+
+    }
+}
+
+.color1{
+    background-color: #1e3932;
+}
+
+.color2{
+    background-color: #0044b4;
+}
+.color3{
+    background-color: #d50032;
+}
