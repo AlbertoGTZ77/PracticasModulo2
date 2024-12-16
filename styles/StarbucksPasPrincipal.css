@@ -11,12 +11,19 @@ header{
     padding: 20px;
     position: sticky;
     top: 0;
+    background-color: white;
 }
+main{
 
+    width: 100%;
+    height: 100%;
+    padding: 50px 230px;
+
+}
 .Navegador{
     display: flex;
     justify-content: space-between;
-    max-width:85%;
+    max-width:70%;
     margin: 0 auto;
 }
 
@@ -81,4 +88,18 @@ header{
 }
 
 
+/*
+etiqueta de banner de cookies
 
+<div class="Cookie-banner">
+        <div class="contenedor-texto">
+            <p class="span-titulo">Este sitio usa cookies.</p>
+            <span>Al navegar en nuestro sitio aceptas que usemos cookies para personalizar tu experiencia según la Declaración de Privacidad.</span>
+
+        </div>
+        <div class="contenedor-boton">
+            <button class="bannerButton">Aceptar</button>
+
+        </div>
+
+    </div>*/
